@@ -29,4 +29,5 @@ Por favor, asegúrate de cumplir con los siguientes requisitos:
 2. [REQUISITO_ESTÁNDAR_3]
 3. [REQUISITO_ESTÁNDAR_4]
 
-El formato de salida debe ser: [CÓMO QUIERES LA RESPUESTA]
+El formato de salida debe ser:
+[CÓMO QUIERES LA RESPUESTA]

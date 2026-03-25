@@ -2,91 +2,86 @@
 
 ## Sistemas para petición de plantillas prompts ia.
 
-Organizado en carpetas:
+Este debe ser el acomodo para guardar una organización, por carpetas estructuradas y archivos de alguna manera seriados para diferenciarlos:
 
-/imagenes
-├── README.md
-├── /docs
-│   └── manual.md
-└── /src
+```md
+prompt_templates_system/
+├── imagenes/
+├──── one pice/
+├────── cartel wanted/
+│       ├── 00-chatgpt.md
+│       ├── 00-gemini.md
+│       ├── 00-peticion.md
+│       ├── 00-prompt-rojo.md
+│       ├── 00-prompt-beige.md
+│       ├── 01-peticion.md
+│       ├── 01-template-prompt.md
+│       ├── 02-prompt.md
+```
 
+---
+
+Otra organización podría ser, teniendo otro nivel de carpeta y poner algún UUID o autoría:
+
+**Autor:**
+```md
+prompt_templates_system/
+├── imagenes/
+├──── one pice/
+├────── cartel wanted/
+├──────── autor/
+│         ├── 00-chatgpt.md
+│         ├── 00-gemini.md
+│         ├── 00-peticion.md
+│         ├── 00-prompt-rojo.md
+│         ├── 00-prompt-beige.md
+│         ├── 01-peticion.md
+│         ├── 01-template-prompt.md
+│         ├── 02-prompt.md
+```
+
+**UUID:**
+```md
+prompt_templates_system/
+├── imagenes/
+├──── one pice/
+├────── cartel wanted/
+├──────── uuid/
+│         ├── 00-chatgpt.md
+│         ├── 00-gemini.md
+│         ├── 00-peticion.md
+│         ├── 00-prompt-rojo.md
+│         ├── 00-prompt-beige.md
+│         ├── 01-peticion.md
+│         ├── 01-template-prompt.md
+│         ├── 02-prompt.md
+```
+
+---
+
+**Organizado en carpetas:**
 - Definido por secciones como imagenes.
 *Ej de Carpetas: imagenes/ , videos/, tablas/*
     - Dentro de esta carpeta el identificador especifico, si es un personaje o algo ese sería su nombre. 
     *# Ej: one pice/, los simpsons/*
         - El nombre de la función. # Ej si va ser plantilla para hacer el cartel de wanted en one pice llamamos a la carpeta algo como: cartel wanted/, o en los simpsons para hacer la foto estilo simpsons: estilo simpsons/.
 
-> [!NOTE]
-> El sistema de organización está pensado para que sea de 3 niveles.
+**Organizado de archivos:**
+- en el formato `00`-`descripcion de archivo`
 
-```carpeta primaria
-```
+Con este modo de serialización podemos tener diferentes *acciones* dentro de la misma serie, como poder tener diferentes colores, peticiones, una variante, un estilo especial, etc...
 
-> [!CALLOUT]
-> **Así es como se escribe una observación.**
->
-> Puede tener varios párrafos.
+Si lo prefieres puedes organizar también con una carpeta adicional ya sea marcada como el nombre del `autor` o con un `uuid`.
 
-Dentro el archivo para pedir el prompt debe sere el consecutivo del último archivo:
-Ejemplo:
-```text
-    Hola
-```
+Para sacar un UUID en una terminal podemos utilizar lo siguiente:
 
-```js example-good
-const greeting = "Soy un buen ejemplo";
-```
-
-```js example-bad
-const greeting = "Soy un mal ejemplo";
-```
-
-```js hidden
-const greeting = "Soy un saludo secreto";
-```
-
-
-
-> [!WARNING]
-> So schreibt man eine Warnung.
+[UUID Tools](https://www.uuidtools.com/)
 
 > [!NOTE]
-> Así es como se escribe una nota.
->
-> Puede contener bloques de código.
->
-> ```js
-> const s = "Estoy en un bloque de código";
-> ```
->
-> Así.
+> El sistema de organización está pensado para que sea de 3 niveles, pero se puede adicionar otra o diferentes capas siguiendo estas 3 primeras como modelo de organización.
 
-- term1
-  - : Mi descripción del term1
+---
 
-- `term2`
-  - : Mi descripción del term2
+## WIKI
 
-    Puede tener varios párrafos y también bloques de código:
-
-    ```js
-    const thing = 1;
-    ```
-
-| Encabezado 1 | Encabezado 2 | Encabezado 3 |
-| ------------ | ------------ | ------------ |
-| celda 1      | celda 2      | celda 3      |
-| celda 4      | celda 5      | celda 6      |
-
-La propiedad de [CSS](/es/docs/Web/CSS) **`margin`**
-establece el área de margen en los cuatro lados de un elemento. Es una abreviatura de
-{{cssxref("margin-top")}}, {{cssxref("margin-right")}}, {{cssxref("margin-bottom")}}
-y {{cssxref("margin-left")}}.
-
-{{EmbedInteractiveExample("pages/css/margin.html")}}
-
-Los márgenes superiores e inferiores no tienen ningún efecto sobre los elementos en
-línea reemplazados, como {{HTMLElement("span")}} o {{HTMLElement("code")}}.
-
-[Ver documento](documento.pdf)
-[Ir a la carpeta de imágenes](./imagenes/)
+Posteriormente implementaremos una wiki.
