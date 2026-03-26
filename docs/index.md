@@ -1,4 +1,14 @@
-# 📚 Sistema Central de Prompts
+<div align="center">
+
+# 📚 Prompt TS
+
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![MkDocs Material](https://img.shields.io/badge/MkDocs_Material-526CFE?style=for-the-badge&logo=materialformkdocs&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
+
+*Sistema organizado y documentado de prompts para Inteligencia Artificial.*
+
+</div> TS
 
 Bienvenido a la base de conocimiento y plantillas de IA. Este espacio está diseñado para almacenar, iterar y estandarizar nuestros prompts más efectivos, asegurando resultados de alta calidad de forma repetible.
 

@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📚 Prompt Templates System
+# 📚 Prompt TS
 
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ![MkDocs Material](https://img.shields.io/badge/MkDocs_Material-526CFE?style=for-the-badge&logo=materialformkdocs&logoColor=white)
