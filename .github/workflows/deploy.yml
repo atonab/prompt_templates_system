@@ -1,0 +1,25 @@
+name: Deploy Wiki
+on:
+  push:
+    branches:
+      - main # Asegúrate de que tu rama principal se llame 'main' (o cámbialo a 'master' si es tu caso)
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v4
+      
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.x
+          
+      - name: Instalar MkDocs y Plugins
+        # Aquí instalamos el tema Material y el plugin para quitar los números
+        run: pip install mkdocs-material mkdocs-awesome-pages-plugin
+        
+      - name: Desplegar en GitHub Pages
+        run: mkdocs gh-deploy --force

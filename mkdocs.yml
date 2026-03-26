@@ -1,0 +1,29 @@
+site_name: Wiki Prompt Templates System 
+site_description: Documentación y plantillas de prompts
+
+theme:
+  name: material
+  features:
+    - navigation.indexes # Mejora la navegación en carpetas
+    - navigation.collapse # Mantiene el menú lateral ordenado
+    - search.suggest # Autocompleta mientras escribes en el buscador
+    - search.highlight # Resalta la palabra que buscaste en los resultados
+  palette:
+    # Opción de tema claro
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Cambiar a modo oscuro
+    # Opción de tema oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Cambiar a modo claro
+plugins:
+  - search
+  - tags
+  - awesome-pages # Este es el plugin que limpia los números de tus carpetas y archivos

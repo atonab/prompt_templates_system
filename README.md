@@ -5,7 +5,7 @@
 Este debe ser el acomodo para guardar una organización, por carpetas estructuradas y archivos de alguna manera seriados para diferenciarlos:
 
 ```md
-prompt_templates_system/
+docs/
 ├── imagenes/
 ├──── one pice/
 ├────── cartel wanted/
@@ -25,7 +25,7 @@ Otra organización podría ser, teniendo otro nivel de carpeta y poner algún UU
 
 **Autor:**
 ```md
-prompt_templates_system/
+docs/
 ├── imagenes/
 ├──── one pice/
 ├────── cartel wanted/
@@ -42,7 +42,7 @@ prompt_templates_system/
 
 **UUID:**
 ```md
-prompt_templates_system/
+docs/
 ├── imagenes/
 ├──── one pice/
 ├────── cartel wanted/
