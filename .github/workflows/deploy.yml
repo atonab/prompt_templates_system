@@ -13,6 +13,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # ¡VITAL! Esto descarga el historial completo para que el plugin de fechas funcione
+          submodules: true # VITAL! Le dice a GitHub que descargue la carpeta 'comunidad'
       
       - name: Configurar Python
         uses: actions/setup-python@v5
