@@ -1,0 +1,6 @@
+*[Few-Shot]: Darle a la IA varios ejemplos previos antes de pedirle la respuesta final.
+*[RAG]: Generación Aumentada por Recuperación (Conectar la IA a documentos externos).
+*[Boilerplate]: Plantilla base de código reutilizable para empezar un proyecto.
+*[CTA]: Call To Action - Llamado a la acción en marketing (ej. "Compra ahora").
+*[PrestaShop]: Plataforma de comercio electrónico de código abierto.
+*[MedusaJS]: Motor de comercio electrónico "headless" basado en Node.js.

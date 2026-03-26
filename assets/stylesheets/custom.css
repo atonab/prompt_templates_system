@@ -1,0 +1,5 @@
+/* Obliga a los bloques de código/texto a saltar de línea para que no se desborden del viewport */
+.md-typeset pre>code {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
