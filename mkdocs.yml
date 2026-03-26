@@ -60,3 +60,5 @@ markdown_extensions:
   - pymdownx.snippets: # SNIPPETS
       auto_append:
         - assets/includes/glosario.txt
+  - md_in_html # Permite leer Markdown dentro de tu div
+  - attr_list  # Permite crear los botones nativos de Material

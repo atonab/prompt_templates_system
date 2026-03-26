@@ -8,7 +8,7 @@
 
 *Sistema organizado y documentado de prompts para Inteligencia Artificial.*
 
-</div> TS
+</div>
 
 Bienvenido a la base de conocimiento y plantillas de IA. Este espacio está diseñado para almacenar, iterar y estandarizar nuestros prompts más efectivos, asegurando resultados de alta calidad de forma repetible.
 
