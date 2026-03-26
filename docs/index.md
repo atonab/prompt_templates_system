@@ -6,7 +6,7 @@
 ![MkDocs Material](https://img.shields.io/badge/MkDocs_Material-526CFE?style=for-the-badge&logo=materialformkdocs&logoColor=white)
 ![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
 
-*Sistema organizado y documentado de prompts para Inteligencia Artificial.*
+*Sistema organizado y documentado de prompts para Inteligencia Artificial*
 
 </div>
 
