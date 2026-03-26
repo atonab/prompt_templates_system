@@ -6,7 +6,7 @@ tags:
 - ImagePrompt
 ---
 
-# Petición General Para Crear Prompt De Cartel Wanted De One Piece
+# Prompt De Cartel Wanted De One Piece - NanoBanana Pro
 
 **Descripción:** Genera un prompt altamente optimizado para que cualquier IA de imagen cree un cartel de recompensa al estilo One Piece personalizado con la imagen de un usuario.
 
