@@ -1,0 +1,3 @@
+[submodule "docs/comunidad"]
+	path = docs/comunidad
+	url = https://github.com/atonab/prompt_ts_global.git

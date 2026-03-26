@@ -22,6 +22,8 @@ Utiliza el menú lateral para navegar por las diferentes áreas. La estructura e
 * **💻 Desarrollo y Sistemas:** Estructuras base para componentes web (React, Next.js, etc.), scripts de automatización y administración de servidores.
 * **📈 Marketing y Agencia:** Copys para Google Ads, Meta Ads y estrategias de contenido estructuradas.
 
+[Crear mi propia Wiki (Fork)](https://github.com/atonab/prompt_templates_system/fork){ .md-button }
+
 ---
 
 ## 🚀 ¿Cómo usar las plantillas?
@@ -45,6 +47,8 @@ No necesitas saber dónde está guardado un archivo para encontrarlo:
 ## 🤝 Contribuciones
 
 Este sistema es colaborativo. Siéntete libre de editar, mejorar o añadir nuevos prompts siguiendo la estructura definida. Recuerda mantener la claridad y especificidad en cada plantilla.
+
+[Ver cómo se hizo este sistema](como-se-hizo.md){ .md-button .md-button--primary }
 
 ---
 
