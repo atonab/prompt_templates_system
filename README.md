@@ -1,6 +1,16 @@
-# [prompt_templates_system]
+<div align="center">
 
-## Sistemas para petición de plantillas prompts ia.
+# 📚 Prompt Templates System
+
+![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
+![MkDocs Material](https://img.shields.io/badge/MkDocs_Material-526CFE?style=for-the-badge&logo=materialformkdocs&logoColor=white)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)
+
+*Sistema organizado y documentado de prompts para Inteligencia Artificial.*
+
+</div>
+
+## 🗂️ Sistemas organizado de prompts IA.
 
 Este debe ser el acomodo para guardar una organización, por carpetas estructuradas y archivos de alguna manera seriados para diferenciarlos:
 
@@ -82,6 +92,10 @@ Para sacar un UUID en una terminal podemos utilizar lo siguiente:
 
 ---
 
-## WIKI
+# 📖 WIKI Interactiva
 
-Posteriormente implementaremos una wiki.
+Toda esta estructura está documentada y servida como una página web estática con buscador, filtrado por etiquetas y modo oscuro/claro.
+
+[https://atonab.github.io/prompt_templates_system/](https://atonab.github.io/prompt_templates_system/)
+
+[![Visitar Wiki](https://img.shields.io/badge/Visitar_la_Wiki-000000?style=for-the-badge&logo=github&logoColor=white)](https://atonab.github.io/prompt_templates_system/)

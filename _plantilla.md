@@ -6,12 +6,15 @@ tags:
 # [Nombre Corto y Descriptivo del Prompt]
 
 **Descripción:**
-- *[Una o dos líneas explicando exactamente qué resuelve este prompt]*
----
+*[Una o dos líneas explicando exactamente qué resuelve este prompt]*
+
 **Modelo Recomendado:**
 - [Ej. GPT-4o, Claude 3.5 Sonnet, Midjourney, etc.]
 - [Claude 3.5 Sonnet]
 - [Midjourney, etc.]
+
+**Tags:** `#OnePiece` `#WantedPoster` `#AnimeStyle` `#ImagePrompt`
+
 ---
 
 ## 📋 Variables a preparar

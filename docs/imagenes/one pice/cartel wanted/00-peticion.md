@@ -1,7 +1,16 @@
-# Cartel Wanted de One Piece
+---
+tags:
+- OnePice
+- WantedPoster
+- AnimeStyle
+- ImagePrompt
+---
+# Petición General Para Crear Prompt De Cartel Wanted De One Piece
 
 **Descripción:** Genera un prompt altamente optimizado para que cualquier IA de imagen cree un cartel de recompensa al estilo One Piece personalizado con la imagen de un usuario.
-**Modelo Recomendado:** GPT-4o, Claude 3.5 Sonnet o cualquier LLM avanzado.
+
+**Modelo Recomendado:** GPT-4o, Gemini, Kimi o cualquier LLM avanzado.
+
 **Tags:** `#OnePiece` `#WantedPoster` `#AnimeStyle` `#ImagePrompt`
 
 ---
