@@ -1,0 +1,3 @@
+nav:
+  - ...        # El plugin leerá esto como: "Pon todas mis carpetas personales primero"
+  - comunidad  # Y esto lo leerá como: "Manda esta carpeta al fondo del menú"
