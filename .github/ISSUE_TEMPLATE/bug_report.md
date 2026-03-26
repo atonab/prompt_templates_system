@@ -1,9 +1,10 @@
 ---
-name: 🐛 Reporte de Error (Bug)
+name: "\U0001F41B Reporte de Error (Bug)"
 about: Crea un reporte para ayudarnos a arreglar un problema en la Wiki o en un prompt.
-title: '[BUG] '
-labels: bug
+title: "[BUG] "
+labels: bug, enhancement
 assignees: ''
+
 ---
 
 ##  تو Descripción del Error
