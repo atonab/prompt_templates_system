@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout del código
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # ¡VITAL! Esto descarga el historial completo para que el plugin de fechas funcione
       
       - name: Configurar Python
         uses: actions/setup-python@v5
@@ -18,8 +20,8 @@ jobs:
           python-version: 3.x
           
       - name: Instalar MkDocs y Plugins
-        # Aquí instalamos el tema Material y el plugin para quitar los números
-        run: pip install mkdocs-material mkdocs-awesome-pages-plugin
-        
+        # Aquí instalamos el tema Material | plugin para quitar los números | callouts para convertir formatos de escritura | fecha de revision | minify para comprimir la web
+        run: pip install mkdocs-material mkdocs-awesome-pages-plugin mkdocs-callouts mkdocs-git-revision-date-localized-plugin mkdocs-minify-plugin
+
       - name: Desplegar en GitHub Pages
         run: mkdocs gh-deploy --force

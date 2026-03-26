@@ -8,7 +8,7 @@ tags:
 
 # Prompt De Cartel Wanted De One Piece - NanoBanana Pro
 
-**Descripción:** Genera un prompt altamente optimizado para que cualquier IA de imagen cree un cartel de recompensa al estilo One Piece personalizado con la imagen de un usuario.
+**Descripción:** Genera un prompt altamente optimizado para que Gemini o NanoBanana Pro cree un cartel de recompensa al estilo One Piece personalizado con la imagen de un usuario.
 
 **Modelo Recomendado:** Gemini / NanoBanana Pro
 
@@ -25,3 +25,5 @@ A high-fidelity One Piece 'WANTED' poster against a deep, seamless pure black ba
 
 > [!NOTE]
 > Recuerda cambiar NOMBRE y RECOMPENSA, asi como la foto de usuario a la que se va aplicar el efecto.
+
+![alt text](00-nanobanana.png)

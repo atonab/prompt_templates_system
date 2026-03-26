@@ -1,4 +1,4 @@
-site_name: Wiki Prompt Templates System 
+site_name: Prompt TS 
 site_description: Documentación y plantillas de prompts
 
 theme:
@@ -8,6 +8,8 @@ theme:
     - navigation.collapse # Mantiene el menú lateral ordenado
     - search.suggest # Autocompleta mientras escribes en el buscador
     - search.highlight # Resalta la palabra que buscaste en los resultados
+    - content.code.copy # ESTO ACTIVA EL BOTÓN DE COPIAR en todos tus bloques
+    - content.tabs.link # Enlaces sincronizados en las pestañas
   palette:
     # Opción de tema claro
     - media: "(prefers-color-scheme: light)"
@@ -23,7 +25,38 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Cambiar a modo claro
+
 plugins:
-  - search
-  - tags
-  - awesome-pages # Este es el plugin que limpia los números de tus carpetas y archivos
+  - search # ESTO ACTIVA EL BUSCADOR
+  - tags # ESTO ACTIVA LAS ETIQUETAS
+  - awesome-pages # Este plugin limpia los números (00-) de tus carpetas y archivos en el menú
+  - minify: # Comprime la web para que cargue ultra rápido
+      minify_html: true
+      minify_js: true
+      minify_css: true
+  - callouts # ESTO ACTIVA LOS CALLOUTS (Hace compatibles las alertas de GitHub > [!NOTE])
+  - git-revision-date-localized: # Muestra la fecha de última actualización al final de la página
+      type: date # Tipo de fecha
+      locale: es # Localización de la fecha (en español)
+
+# CSS (Para que los bloques de código no se salgan de la pantalla en móviles)
+extra_css:
+  - assets/stylesheets/custom.css
+
+# ACTIVA EL BOTÓN DE "EDITAR ESTA PÁGINA" (Lápiz en la esquina superior derecha)
+repo_url: https://github.com/atonab/prompt_templates_system
+repo_name: atonab/prompt_templates_system
+edit_uri: edit/main/docs/
+
+# Extensiones de Markdown
+markdown_extensions:
+  - pymdownx.superfences # ESTO ACTIVA LOS BLOQUES DE CÓDIGO AVANZADOS
+  - pymdownx.tasklist # ESTO ACTIVA LAS LISTAS DE TAREAS (Checklists)
+  - pymdownx.details # ESTO ACTIVA LAS CAJAS DESPLEGABLES (???)
+  - admonition # ESTO ACTIVA LAS ALERTAS DE COLORES (!!! note)
+  - abbr # ESTO ACTIVA LOS TOOLTIPS / GLOSARIO
+  - pymdownx.tabbed: # ESTO ACTIVA LAS PESTAÑAS (=== "Pestaña 1")
+      alternate_style: true
+  - pymdownx.snippets: # SNIPPETS
+      auto_append:
+        - assets/includes/glosario.txt
